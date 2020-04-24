@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: url(../Imagem/banner.jpg);
+    opacity: 90%;
+    /**background-color: rgb(190, 190, 190);**/
+    background-size: cover;
+    height: 750px;
+}
+
+header img {
+    width: 100px;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+
+header nav {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    ;
+}
+
+header nav ul li {
+    margin-top: 10px;
+    display: inline-flex;
+    color: rgb(100, 100, 100);
+    margin-right: 50px;
+}
+
+header nav ul li img {
+    height: 18px;
+    width: 18px;
+    margin: 0px;
+}
+
+header div {
+    text-align: center;
+    color: rgb(100, 100, 100);
+    margin-top: 250px;
+}
+
+header div h2 {
+    font-size: 30px;
+}
+
+header div p {
+    font-size: 15px;
+}
+
+header div button {
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(100, 100, 100);
+    padding: 5px 30px;
+    border-style: none;
+    margin-top: 10px;
+}
+
+#botao1 {
+    margin-right: 15px;
+}
+
+#botao2 {
+    margin-left: 15px;
+}
+
+#cliente {
+    display: flex;
+    height: 300px;
+}
+
+main section div img {
+    width: 50vw;
+    height: 100%;
+}
+
+.texto1 {
+    width: 50vw;
+    color: rgb(100, 100, 100);
+    padding-left: 110px;
+    padding-top: 40px;
+}
+
+.texto1 h3 {
+    font-size: 25px;
+}
+
+.texto1 p{
+    font-size: 15px;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+}
+
+#fornecedor {
+    display: flex;
+    height: 300px;
+}
+
+.texto2 h3 {
+    font-size: 25px;
+}
+
+.texto2 p{
+    font-size: 15px;
+}
+
+.texto2 {
+    color: rgb(100, 100, 100);
+    padding-left: 110px;
+    padding-top: 40px;
+}
+
+#infos1 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+#infos2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#infos2 h2{
+    font-size: 25px;
+}   
+
+#infos2 p {
+    font-size: 14px;
+    margin-top: -15px;
+}
+
+#time {
+    padding-top: 15px;
+}
+
+#rodape {
+    background-color: rgb(100, 100, 100);
+    height: 150px;
+}
+
+#passos {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#rodape nav ul li {
+    display: inline-flex;
+    padding-top: 70px;
+    margin-left: 50px;
+    font-size: 10px;
+    color: white;
+}
+
+#passos div img {
+    height: 150px;
+    width: 150px;
+}
