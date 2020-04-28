@@ -4,11 +4,12 @@ body {
 }
 
 header {
-    background-image: url(../Imagem/banner.jpg);
+    background-image: url(../image/banner-home.jpg);
     opacity: 90%;
     /**background-color: rgb(190, 190, 190);**/
     background-size: cover;
-    height: 750px;
+    height: 700px;
+    margin-bottom: 100px;
 }
 
 header img {
@@ -31,8 +32,12 @@ nav ul li {
 header nav ul li {
     margin-top: 10px;
     display: inline-flex;
-    color: rgb(100, 100, 100);
+    color: white;
     margin-right: 50px;
+}
+
+header nav ul li:hover {
+    color: #f1873b;
 }
 
 header nav ul li img {
@@ -41,10 +46,12 @@ header nav ul li img {
     margin: 0px;
 }
 
+/* aqui começa o banner */
+
 header div {
     text-align: center;
-    color: rgb(100, 100, 100);
-    margin-top: 250px;
+    color: white;
+    margin-top: 200px;
 }
 
 header div h2 {
@@ -53,16 +60,21 @@ header div h2 {
 
 header div p {
     font-size: 15px;
+    text-align: center;
 }
 
 header div button {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 5px;
-    background-color: rgb(100, 100, 100);
-    padding: 5px 30px;
+    background-color: #f1873b;
+    padding: 7px 30px;
     border-style: none;
     margin-top: 10px;
+}
+
+header div button:hover {
+    background-color: #ce5600;
 }
 
 #botao1 {
@@ -73,9 +85,16 @@ header div button {
     margin-left: 15px;
 }
 
+
+/* aqui começa o main */
+
+
 #cliente {
     display: flex;
     height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 main section div img {
@@ -91,11 +110,13 @@ main section div img {
 }
 
 .texto1 h3 {
-    font-size: 25px;
+    font-size: 28px;
+    width: 70%
 }
 
 .texto1 p{
     font-size: 15px;
+    width: 70%;
 }
 
 .image1 {
@@ -105,15 +126,20 @@ main section div img {
 
 #fornecedor {
     display: flex;
-    height: 300px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 .texto2 h3 {
-    font-size: 25px;
+    font-size: 28px;
+    width: 70%;
 }
 
 .texto2 p{
     font-size: 15px;
+    width: 70%;
 }
 
 .texto2 {
@@ -122,10 +148,16 @@ main section div img {
     padding-top: 40px;
 }
 
+
+/* aqui começa o banner de informações */
+
+
 #infos1 {
-    background-color: orange;
+    background-color: #f1873b;
     color: white;
+    padding-top: 20px;
     text-align: center;
+    
 }
 
 #infos2 {
@@ -134,7 +166,9 @@ main section div img {
     width: 90vw;
     margin: auto;
     height: 100px;
+    padding-bottom: 20px;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 #infos2 h2{
@@ -150,30 +184,50 @@ main section div img {
     padding-top: 15px;
 }
 
-#rodape {
-    background-color: rgb(100, 100, 100);
-    height: 150px;
-}
+/* aqui começam as instruções */
 
 #passos {
     display: flex;
     justify-content: space-between;
-    width: 90vw;
-    height: 250px;
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+
+#passos div {
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 100px;
+}
+
+#passos img {
+    width: 100%;
+    height: auto;
+}
+
+#passos p {
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+
+#rodape {
+    background-color: #3c9cd7;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
 }
 
 #rodape nav ul li {
     display: inline-flex;
     padding-top: 70px;
     margin-left: 50px;
-    font-size: 10px;
+    font-size: 12px;
     color: white;
-}
-
-#passos div img {
-    height: 150px;
-    width: 150px;
 }
