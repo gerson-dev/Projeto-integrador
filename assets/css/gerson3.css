@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family:
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
 }
 body{
     margin: 0;
@@ -11,45 +12,47 @@ body{
 
 header{
     width: 100%;
-    height: 70px;
-    background-color: rgb(251, 253, 251);
+    height: 60px;
+    background-color: white;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     /* box-shadow: 0px 0px 2px 0px; */
-    border-bottom: 1px solid rgba(211, 208, 208, 0.103);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
     position: fixed;
     
 }
-header div a{
-    margin-left: 40px;
-    text-decoration: none;
-    color: grey;
-    font-size: 18px;
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
 }
 
-
+header div a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: grey;
+}
 
 
 
 .logo img{
     width: 100px;
-    height: 90px;
-    margin-left: 40px;
+    margin-top: 22px;
+    margin-left: 22px;
     margin-right: 150px;
-    margin-top: 5px;
     
 }
 ul{
     display: flex;
-    margin-left: 50px;
+    margin-left: 30px;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
-    
-
-
 }
+
 li{
     list-style: none;
 
@@ -58,8 +61,7 @@ li{
 li a{
     text-decoration: none;
     color: grey;
-    margin-right: 100px;
-    font-size: 18px;
+    margin-right: 50px;
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
@@ -68,12 +70,19 @@ li a{
 }
 li a:hover{
     background-color: grey;
-    color: honeydew;
+    color: white;
 }
+
+.search {
+    display: flex;
+    flex-direction: row;
+}
+
 input{
     border: none;
-    outline-color:rgb(211, 208, 208) ;
+    outline-color: white;
     height: 24px;
+    margin-left: 20px;
 }
 
 /* end header */
@@ -103,72 +112,50 @@ select{
 
 }
 
-.container2 {
+main {
+    width: 100%;
     display: flex;
-    width: 100%;
-    max-width: 1200px;
-    margin-left: 100px;
-    margin-right: 100px;
-    /* flex-wrap: wrap; */
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
-.container2 div{
-    width: 100%;
-    max-width: 1150px;
-    height: 350px;
-    background-color: red;
-    margin-bottom: 40px;
-    background-image: url(../image/sushi.jpg);
-    background-repeat: no-repeat;
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    background-image: url(../image/capa-fornecedor.jpg);
     background-size: cover;
-    background-position: center;
-    
+    margin-bottom: 50px;    
 }
-.container3{
+
+.banner h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.servicos{
     display: flex;
-    width: 100%;
-    max-width: 1200px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 80%;
+    justify-content: space-between;
     flex-wrap:wrap;
 }
 
 
-article .casamento{
-    width:350px;
-    height: 310px;
-    margin-right: 45px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 3px;
-    background-color: violet;
-    display: flex;
-    background-image: url(../image/dj.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    
-    background-color: purple;
-    
-}
-article .info{
-    text-align: center;
-    margin-bottom: 30px;
+.servicos article {
+    width: calc(100% / 3 - 50px);
+    display: inline-block;
 }
 
-article p,h3, h4{
-    margin-top: 15px;
-    text-align: center;
-    
+.servicos article img {
+    width: 100%;
 }
-article .info a{
-    text-align: center;
-    background-color: gray;
-    color: honeydew;
-    padding: 10px;
-    text-decoration: none;
-    margin-bottom: 50px;
-}
+
 footer{
     height: 350px;
     background-color: rgb(73, 73, 73);
@@ -249,7 +236,7 @@ footer form h3,.newsletter{
 
 
 
-/* article .casamento{
+/* article .servico{
     width: 350px;
     height: 380px;
     margin-right: 45px;
