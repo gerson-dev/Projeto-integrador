@@ -26,7 +26,6 @@ header nav {
 
 nav ul li {
     list-style-type: none;
-    ;
 }
 
 header nav ul li {
@@ -224,8 +223,7 @@ main section div img {
     background-color: #3c9cd7;
     height: 150px;
     display: flex;
-    justify-content: center;
-    justify-content: center;
+    justify-content: start;    
 }
 
 #rodape nav ul li {
