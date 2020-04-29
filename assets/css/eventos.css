@@ -1,0 +1,448 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* start header */
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 0px 0px 2px 0px; */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 3;
+    
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: grey;
+}
+
+.logo img{
+    width: 100px;
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-right: 150px;    
+}
+
+ul {
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 50px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px; 
+}
+
+li a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    border: none;
+    outline-color: white;
+    height: 24px;
+    margin-left: 20px;
+}
+
+/* aqui começa o filtro */
+
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    /* background-color: tomato; */
+    flex-wrap: wrap;
+
+}
+p{
+    margin-top: 105px;
+    margin-right: 20px;
+}
+select{
+    width: 220px;
+    height: 30px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    border-radius: 6px;
+    border-color: rgb(226, 225, 225);
+    outline-color: white;  
+}
+
+
+/* aqui começam os eventos */
+
+section {
+    display: flex;
+    width: 80%;
+    align-self: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+article .casamento{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;
+    display: flex;
+    background-image: url(../image/casamento1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .casamento:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .formatura{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/formatura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .formatura:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .festa15anos{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/15anos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .festa15anos:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .festainfantil{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/festa-infantil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .festainfantil:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .aniversario{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/aniversario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .aniversario:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .churrasco{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/churrasco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .churrasco:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .happyhour{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/happy-hour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .happyhour:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .reveillon{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/ano-novo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .reveillon:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .natal{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/natal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .natal:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .festauniversitaria{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/festa-universitaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .festauniversitaria:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .festaemcasa{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/festa-em-casa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .festaemcasa:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article .coorporativo{
+    width: 220px;
+    height: 220px;
+    margin: 30px;
+    background-color: black;
+    opacity: 0.7;
+    background-position: center;    
+    display: flex;
+    background-image: url(../image/coorporativo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article .coorporativo:hover{
+    opacity: 1;
+    transition: .5s ease;
+}
+
+article div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+article div h3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: white; 
+    text-align: center;
+}
+
+article a{
+    text-decoration: none;
+}
+
+
+/* aqui começa o footer */
+
+
+footer{
+    height: 230px;
+    background-color: #f1873b;
+    margin-top: 100px;
+    display: flex;
+    
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
+footer div img{
+    margin-left: 80px;
+    width: 100px;
+    height: auto;
+}
+footer .menu-footer{
+    flex-direction:column;
+    justify-content: flex-start;
+    padding-top: 40px;
+    margin-left: 90px;
+
+}
+footer ul li{
+    margin-bottom: 30px;
+}
+footer ul li a{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer form h3{
+    color:white;
+    font-size: 14px;
+}
+
+footer form{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+footer form .newsletter{
+    width: 200px;
+    padding: 18px;
+    border-radius: 8px;
+    color: rgb(121, 121, 121);
+}
+footer form .news{
+    background-color: #3c9cd7;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+}
+footer form a{
+    width: 24px;
+    margin-right: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+footer  a img{
+    width: auto;
+    height: 20px;  
+}
+
+footer form h3,.newsletter{
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
