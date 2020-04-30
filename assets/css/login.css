@@ -1,12 +1,18 @@
 *{
     box-sizing: border-box;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
 }
+
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(238, 235, 235);
+    background-image: url(../image/banner-home.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+/* aqui começa a header */
 
 header{
     display: flex;
@@ -15,22 +21,24 @@ header{
     height: 60px;
     background-color:white;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-
-    
 }
+
 header h2{
     margin-right: 350px;
     margin-left: 350px;
     color: gray;
     text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 16px;
     
 }
 header h3{
     color: gray;
+    font-weight: normal;
+    font-size: 14px;
 }
+
+/* aqui começa o login */
 
 section{
     display: flex;
@@ -52,9 +60,9 @@ section{
     width: 250px;
     height: 40px;
     margin-bottom: 20px;
-    padding-left: 5px;
+    padding-left: 10px;
     border-radius: 7px;
-    border: 1px solid gray;
+    border: 1px solid rgb(207, 207, 207);
 
 }
 .login{
@@ -66,8 +74,8 @@ section{
     padding-top: 30px;
     justify-content: center;
     background-color:white;
-    color:rgb(94, 94, 94);
-    font-size: 35px;
+    color:rgb(255, 255, 255);
+    font-size: 24px;
 }
 
 .cliente{
@@ -77,10 +85,8 @@ section{
     /* background-color: turquoise; */
     /* display: flex; */
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     border-right: 1px solid gray;
-
-    
 }
 
 .login1, .login2{
@@ -90,11 +96,8 @@ section{
     margin-top: 30px;
     margin-bottom: 30px;
     color: rgb(94, 94, 94);
-    font-size: 19px;
+    font-size: 16px;
 }
-
-
-
 
 .fornecedor{
     width: 100%;
@@ -103,10 +106,7 @@ section{
     /* background-color:red; */
     /* display: flex; */
     justify-content: center;
-    margin-top: 100px;
-
-
-    
+    margin-top: 50px; 
 }
 
 label button{
@@ -116,31 +116,19 @@ label button{
     padding-left: 5px;
     border-radius: 7px;
     border: none;
-    background-color: rgb(73, 73, 73);
+    background-color: #f1873b;
     color: honeydew;
 }
 
+.fornecedor label button {
+    background-color: #3c9cd7;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* aqui começa o footer */
 
 footer{
-    height: 350px;
-    background-color: rgb(73, 73, 73);
+    height: 230px;
+    background-color: #f1873b;
     margin-top: 100px;
     display: flex;
     
@@ -151,44 +139,52 @@ footer div{
 }
 footer div img{
     margin-left: 80px;
-    width: 150px;
-    height: 110px;
+    width: 100px;
+    height: auto;
 }
 footer .menu-footer{
     flex-direction:column;
     justify-content: flex-start;
-    padding-top: 80px;
+    padding-top: 40px;
     margin-left: 90px;
-
 }
+
 footer ul li{
     margin-bottom: 30px;
+    list-style-type: none;
 }
 footer ul li a{
-    margin-bottom: 20px;
-    color: honeydew;
-    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 12px;
     text-decoration: none;
-    
+}
 
+footer form h3{
+    color:white;
+    font-size: 14px;
 }
 
 footer form{
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: 150px;
-    
-    
 }
 footer form .newsletter{
-    height: 37px;
     width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: rgb(121, 121, 121);
 }
 footer form .news{
-    background-color: honeydew;
-    color:gray;
+    background-color: #3c9cd7;
+    color: white;
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-decoration: none;
     border: none;
+    border-radius: 8px;
 }
 footer form a{
     width: 24px;
@@ -197,13 +193,10 @@ footer form a{
     text-decoration: none;
 }
 footer  a img{
-    width: 24px;
-    height: 24px;  
+    width: auto;
+    height: 20px;  
 }
-footer form h3{
-    color:white;
-    font-size: 20px;
-}
+
 footer form h3,.newsletter{
     margin-left: 100px;
     margin-bottom: 30px;
