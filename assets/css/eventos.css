@@ -134,7 +134,7 @@ article .casamento{
     height: 220px;
     margin: 30px;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.8;
     background-position: center;
     display: flex;
     background-image: url(../image/casamento1.jpg);
@@ -361,6 +361,7 @@ article div h3{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: white; 
+    text-shadow: 0.1em 0.1em 0.3em black;
     text-align: center;
 }
 
