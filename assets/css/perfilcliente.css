@@ -67,7 +67,7 @@ main section nav ul li {
     margin-right: 40px;
 }
 
-/**.servicos-img {
+.servicos-img {
     display: flex;
     width: 100%;
     max-width: 980px;
@@ -75,7 +75,7 @@ main section nav ul li {
     margin: 0px; 
 }
 
-.servicos-img article {
+/**.servicos-img article {
     margin-left: 30px;
 }
 
@@ -109,6 +109,11 @@ main article img{
 main section div article {
     display: flex;
     margin-top: 10px;
+}
+
+.servicos-img h2 {
+    margin: 0;
+    display: block;
 }
 
 main section div article h6 {

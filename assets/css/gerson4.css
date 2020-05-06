@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* inicio do cabeçalho */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    /* background-color: hotpink; */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    
+}
+header h2{
+    margin-right: 350px;
+    margin-left: 350px;
+    color: gray;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+header h3{
+    color: gray;
+}
+
+/* fim do cabeçalho */
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+/* inicio da 1° section */
+.container .texto h3{
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(75, 74, 74);
+
+}
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1080px;
+    height: 400px;
+    /* background-color: indigo; */
+    margin: auto;
+    margin-top: 40px;
+}
+ .texto{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    /* background-color: lawngreen; */
+    width: 550px;
+   
+}
+.imagem{
+    /* background-color: lightsalmon; */
+    width: 600px;
+    display: flex;
+    justify-content: flex-end
+}
+.imagem img{
+    background-color:;
+    width: 350px;
+    height: 400px;
+
+}
+.dados{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+/* fim da 1° section */
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* inicio da 2 section */
+
+
+.container-form1{
+    width: 100%;
+    max-width: 1080px;
+    /* background-color: lightseagreen; */
+    display: flex;
+    margin: auto;
+    
+}
+label{
+    margin-right: 50px;
+    margin-top: 5px;
+}
+.campos{
+    display: flex;
+    width: 100%;
+    max-width: 1080px;
+    margin-left: 40px;
+    margin-right: 50px;
+    /* background-color: maroon; */
+}
+.nome{
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+.usuario{
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+.email{
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    
+}
+.senha{
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+.celular{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+.telefone{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+.confirmar{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+
+}
+.cpf-cnpj{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    
+   
+}
+.mei{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    
+}
+.radio{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: 25px;
+
+}
+.endereço{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    
+}
+.numero{
+    width: 60px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+
+}
+.complemento{
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+.logradouro{
+    width: 255px;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+
+}
+.finança{
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-top: px;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+.radio label{
+    margin-right: 30px;
+    font-size: 18px;
+    color: grey;
+}
+.radio input{
+    margin-right: 10px;
+}
+.campos p{
+    margin:5;
+    font-size: 18px;
+    color: grey;
+
+}
+button{
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgb(73, 73, 73);
+    border: none;
+    color: honeydew;
+
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    height: 350px;
+    background-color: rgb(73, 73, 73);
+    margin-top: 100px;
+    display: flex;
+    
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
+footer div img{
+    margin-left: 80px;
+    width: 150px;
+    height: 110px;
+}
+footer .menu-footer{
+    flex-direction:column;
+    justify-content: flex-start;
+    padding-top: 80px;
+    margin-left: 90px;
+
+}
+footer ul li{
+    margin-bottom: 30px;
+}
+footer ul li a{
+    margin-bottom: 20px;
+    color: honeydew;
+    font-size: 18px;
+    text-decoration: none;
+    
+
+}
+
+footer form{
+    margin-top: 80px;
+    margin-left: 150px;
+    
+    
+}
+footer form .newsletter{
+    height: 37px;
+    width: 200px;
+}
+footer form .news{
+    background-color: honeydew;
+    color:gray;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+}
+footer form a{
+    width: 24px;
+    margin-right: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+footer  a img{
+    width: 24px;
+    height: 24px;  
+}
+footer form h3{
+    color:white;
+    font-size: 20px;
+}
+footer form h3,.newsletter{
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+

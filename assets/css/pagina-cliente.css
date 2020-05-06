@@ -109,6 +109,10 @@ header h3 {
     margin: 20px;
 }
 
+.servicos-img h2 {
+    margin: 0px;
+}
+
 #destaques div {
     display:flex;
     justify-content: space-between;
