@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 400px;
+    background-color: rgb(111, 114, 111);
+    justify-content: space-between;
+    background-image: url(../image/contato.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    
+
+}
+header div img{
+    margin-left: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+ul{
+  display: flex;
+  padding: 0;
+  
+}
+ header nav ul li{
+     margin-right: 30px;
+     list-style: none;
+ }
+ header nav ul li a{
+     text-decoration: none;
+     color: rgb(153, 151, 151);
+     font-size: 20px;
+ }
+ header nav ul li a:hover{
+     color: orange;
+ }
+ header nav ul input{
+     width: 110px;
+     padding: 3px;
+     border: none;
+     opacity: 30%;
+     margin-right: 15px;
+    
+ }
+
+ .titulo{
+     display: flex;
+     justify-content: center;
+ }
+ .titulo h1{
+     font-size: 30px;
+     color: grey;
+     font-weight: normal;
+     margin-top: 150px;
+     margin-bottom: 100px;
+
+ }
+ 
+ .ilustracao img{
+    float: right;
+    margin-right: 50px;
+    margin-left: 60px;
+    height: 500px;
+    width: 500px;
+    margin-top: 0px;
+    
+ }
+ .container form{
+    margin-left: 100px;
+ }
+ .container form input{
+     width: 400px;
+     padding: 10px;
+     border-radius: 5px;
+     border: 2px solid rgb(197, 195, 195);
+     font-size: 16px;
+ }
+ .container form textarea{
+    width: 600px;
+    height:200px;
+    border-radius: 5px;
+    border: 2px solid rgb(197, 195, 195);
+    resize: none;
+}
+
+.contacts{
+    display: flex;
+}
+.contacts label .fone{
+    width: 200px;
+    margin-right: 15px;
+}
+.contacts label .assunto{
+    width: 300px;
+
+}
+form p{
+    font-size: 18px;
+    color:rgb(87, 86, 86) ;
+}
+
+.botao{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+    width: 600px;
+
+    
+  
+}
+.botao button{
+    width: 100px;
+    border: none;
+
+    padding: 10px;
+    background-color: orange;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+}
+aside img{
+    width: 50px;
+    height: 45px;
+    margin-right: 50px;
+}
+
+footer{
+    height: 230px;
+    background-color: #f1873b;
+    margin-top: 100px;
+    display: flex;
+    
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
+footer div img{
+    margin-left: 80px;
+    width: 100px;
+    height: auto;
+}
+footer .menu-footer{
+    flex-direction:column;
+    justify-content: flex-start;
+    padding-top: 40px;
+    margin-left: 90px;
+
+}
+footer ul li{
+    margin-bottom: 30px;
+}
+footer ul li a{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer form h3{
+    color:white;
+    font-size: 14px;
+}
+
+footer form{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+footer form .newsletter{
+    width: 200px;
+    padding: 18px;
+    border-radius: 8px;
+    color: rgb(121, 121, 121);
+}
+footer form .news{
+    background-color: #3c9cd7;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+}
+footer form a{
+    width: 24px;
+    margin-right: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+footer  a img{
+    width: auto;
+    height: 20px;  
+}
+
+footer form h3,.newsletter{
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+
+ 

@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* start header */
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 0px 0px 2px 0px; */
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header div a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+.logo img{
+    width: 100px;
+    margin-top: 22px;
+    margin-left: 22px;
+    margin-right: 150px;
+    
+}
+ul{
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+
+    
+}
+li a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 50px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    
+}
+li a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    border: none;
+    outline-color: white;
+    height: 24px;
+    margin-left: 20px;
+}
+
+/* end header */
+
+.container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    /* background-color: tomato; */
+    flex-wrap: wrap;
+
+}
+p{
+    margin-top: 105px;
+    margin-right: 20px;
+}
+select{
+    width: 220px;
+    height: 30px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    border-radius: 6px;
+    border-color: rgb(226, 225, 225);
+    outline-color: white;
+
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+/* aqui começa o banner */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    background-image: url(../image/capa-categoria.jpg);
+    background-size: cover;
+    margin-bottom: 70px;    
+}
+
+.banner h3 {
+    font-size: 30px;
+    color: white;
+}
+
+/* aqui começam os serviços */
+
+.servicos{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.servicos article {
+    width: calc(100% / 4 - 50px);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.servicos article img {
+    width: 100%;
+}
+
+.servicos article p, h5 {
+    display: inline-block;
+    font-size: 10px;
+    color: rgb(121, 121, 121);
+    padding: 0;
+    margin: 0;
+}
+
+.servicos article h4 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(95, 95, 95);
+    margin-bottom: 15px;
+}
+
+.servicos article h6 {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(133, 133, 133);
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.servicos article button {
+    background-color: #3c9cd7;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.servicos article button:hover {
+    background-color: #f1873b;
+}
+
+/* aqui começa o footer */
+
+footer{
+    height: 230px;
+    background-color: #f1873b;
+    margin-top: 100px;
+    display: flex;
+    
+}
+footer div{
+    display: flex;
+    align-items: center;
+}
+footer div img{
+    margin-left: 80px;
+    width: 100px;
+    height: auto;
+}
+footer .menu-footer{
+    flex-direction:column;
+    justify-content: flex-start;
+    padding-top: 40px;
+    margin-left: 90px;
+
+}
+footer ul li{
+    margin-bottom: 30px;
+}
+footer ul li a{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer form h3{
+    color:white;
+    font-size: 14px;
+}
+
+footer form{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+footer form .newsletter{
+    width: 200px;
+    padding: 18px;
+    border-radius: 8px;
+    color: rgb(121, 121, 121);
+}
+footer form .news{
+    background-color: #3c9cd7;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+}
+footer form a{
+    width: 24px;
+    margin-right: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+footer  a img{
+    width: auto;
+    height: 20px;  
+}
+
+footer form h3,.newsletter{
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+/* article .servico{
+    width: 350px;
+    height: 380px;
+    margin-right: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    background-color: violet;
+    display: flex;
+    background-image: url(../image/casamento.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+} */
